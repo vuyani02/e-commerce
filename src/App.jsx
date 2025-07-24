@@ -6,7 +6,8 @@ import Recommended from "./components/recommended/recommended"
 import "./App.css"
 import data from "./data/data"
 
-const Master = () => {
+
+const App = () => {
 
     const [search, setSearch] = useState('')
     const [selectCategory, setSelectCategory] = useState('')
@@ -82,4 +83,4 @@ const Master = () => {
     )
 }
 
-export default Master
+export default App

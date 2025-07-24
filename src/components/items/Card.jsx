@@ -6,7 +6,7 @@ const Card = ({img, title, reviews, prevPrice, newPrice}) => {
     return (
         <section className="card-container">
             <div className="img-container">
-                <img src={img} alt="sneaker" className="card-img"/>
+                <img src={img} alt={title} className="card-img"/>
             </div>
             <div className="title-container">
                 <p className="title">{title}</p>
